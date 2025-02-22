@@ -6,7 +6,7 @@ let currentSort = {
 
 async function fetchTeams() {
   try {
-    const response = await fetch("src/teams.json");
+    const response = await fetch("data/teams.json");
     if (!response.ok) {
       throw new Error("Failed to fetch data");
     }
@@ -52,7 +52,7 @@ let teamsData = [];
 
 async function loadTeamsData() {
   try {
-    const response = await fetch("src/team-members.json");
+    const response = await fetch("data/team-members.json");
     teamsData = await response.json();
   } catch (error) {
     console.error("Error loading team data:", error);
@@ -65,7 +65,7 @@ loadTeamsData();
 // Fetch data from JSON file
 async function fetchPlayersData() {
   try {
-    const response = await fetch("src/players.json"); // Fetch JSON data
+    const response = await fetch("data/players.json"); // Fetch JSON data
     const data = await response.json();
     playersData = data.players; // Store the data for sorting
 
