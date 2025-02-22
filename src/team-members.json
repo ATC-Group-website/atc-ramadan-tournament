@@ -1,0 +1,652 @@
+{
+  "teams": [
+    {
+      "name": "Eagles",
+      "players": [
+        {
+          "name": "Zizo",
+          "number": 1,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "M.Samy",
+          "number": 5,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Moatasem",
+          "number": 6,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Al Bakry",
+          "number": 7,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Mahmoud",
+          "number": 8,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "M.Abdallah",
+          "number": 9,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Amir",
+          "number": 10,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        }
+      ]
+    },
+    {
+      "name": "Alex Team",
+      "players": [
+        {
+          "name": "Habshy",
+          "number": 1,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "DAB3",
+          "number": 5,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Ashraf",
+          "number": 6,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "3LWA",
+          "number": 7,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "METO",
+          "number": 8,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Helal",
+          "number": 9,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Se7so",
+          "number": 10,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        }
+      ]
+    },
+    {
+      "name": "الشواكيش",
+      "players": [
+        {
+          "name": "ELGIZAWY (C) (GK)",
+          "number": 1,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "ATAA",
+          "number": 2,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "M.HALIIEM",
+          "number": 7,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "HESHAM",
+          "number": 8,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "ELTRAMSY",
+          "number": 9,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "ONSY",
+          "number": 10,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "MiiDo",
+          "number": 11,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        }
+      ]
+    },
+    {
+      "name": "Knights",
+      "players": [
+        {
+          "name": "Waleed Nabil (C)",
+          "number": 10,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Ahmed Reda",
+          "number": 4,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Eslam Khaled",
+          "number": 5,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Ahmed Abdelmoaaz",
+          "number": 6,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Abdelrahman Magdy",
+          "number": 7,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Yousry Mahmoud",
+          "number": 8,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Mohamed Samy",
+          "number": 9,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        }
+      ]
+    },
+    {
+      "name": "6th October Branch",
+      "players": [
+        {
+          "name": "Elsenosy (GK)",
+          "number": 1,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Ahmed",
+          "number": 5,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Ali",
+          "number": 7,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Dakhly",
+          "number": 9,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Sebai",
+          "number": 10,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Sherif",
+          "number": 14,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Boda",
+          "number": 22,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        }
+      ]
+    },
+    {
+      "name": "El Dawly",
+      "players": [
+        {
+          "name": "Ali (C)",
+          "number": 4,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Darwish (GK)",
+          "number": 1,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Mohamed",
+          "number": 5,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Hazem",
+          "number": 7,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Hussein",
+          "number": 8,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Abdelrahman",
+          "number": 9,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Homos",
+          "number": 10,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        }
+      ]
+    },
+    {
+      "name": "النصر",
+      "players": [
+        {
+          "name": "M.Shehata (C)",
+          "number": 3,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "A.Matar (GK)",
+          "number": 10,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "A.Antar",
+          "number": 4,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Hossam",
+          "number": 5,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "M.Ebrahim",
+          "number": 7,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "M.Reda",
+          "number": 8,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "H.Matar",
+          "number": 9,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        }
+      ]
+    },
+    {
+      "name": "EL Ninja",
+      "players": [
+        {
+          "name": "ELBOB (C)",
+          "number": 8,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Raafat.jr",
+          "number": 4,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "SAAD",
+          "number": 5,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "AHMED",
+          "number": 6,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "BAKAR",
+          "number": 7,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "TATA",
+          "number": 9,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "RAGAB",
+          "number": 10,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        }
+      ]
+    },
+    {
+      "name": "الحريفة",
+      "players": [
+        {
+          "name": "Abd ElAziz",
+          "number": 1,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "A.Refat",
+          "number": 2,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Zezo",
+          "number": 4,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Mahmoud",
+          "number": 5,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "A.Abd El Hamid",
+          "number": 9,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "A.Hassan",
+          "number": 10,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Amar",
+          "number": 7,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        }
+      ]
+    },
+    {
+      "name": "Falcons",
+      "players": [
+        {
+          "name": "Mostafa (C)",
+          "number": 9,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Orabi (GK)",
+          "number": 10,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Shiko",
+          "number": 3,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Mohamed",
+          "number": 4,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Abdelrahman",
+          "number": 6,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "M.Sa3ed",
+          "number": 7,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Tarek",
+          "number": 8,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        }
+      ]
+    },
+    {
+      "name": "Warriors",
+      "players": [
+        {
+          "name": "Man3m",
+          "number": 3,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Ahmed",
+          "number": 4,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Saied",
+          "number": 5,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Hany",
+          "number": 6,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Walid",
+          "number": 7,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Nabil",
+          "number": 8,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Omar",
+          "number": 10,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        }
+      ]
+    },
+    {
+      "name": "Wolves",
+      "players": [
+        {
+          "name": "M.Hany",
+          "number": 1,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "M.Azab",
+          "number": 5,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Khiristo",
+          "number": 6,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "Ali",
+          "number": 7,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "M.Maged",
+          "number": 8,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "M.Kota",
+          "number": 9,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        },
+        {
+          "name": "K.ElShazly",
+          "number": 10,
+          "goals": 5,
+          "yellowCards": 2,
+          "redCards": 0
+        }
+      ]
+    }
+  ]
+}

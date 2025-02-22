@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/image.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>ATC Ramadan Tournament Event</title>
+  </head>
+  <body>
+    <header class="bg-red-600 text-white p-4">
+      <h1
+        class="text-2xl font-bold text-center md:text-start container mx-auto"
+      >
+        ATC Group Ramadan Football Tournament
+      </h1>
+    </header>
+    <main class="p-4 bg-[url(/bg-image.jpg)] bg-fixed bg-cover bg-center">
+      <!-- Groups Section  -->
+      <section id="groups" class="mb-8 container mx-auto">
+        <h2 class="text-2xl font-bold mb-6 text-center text-white">
+          Group Stage
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <!-- Group A -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-bold text-center mb-4">Group A</h3>
+            <ul class="space-y-2">
+              <li
+                class="flex justify-between items-center px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 cursor-pointer transition"
+                onclick="showTeamModal('الشواكيش')"
+              >
+                <span>الشواكيش</span>
+                <span class="font-semibold text-gray-600">0 Points</span>
+              </li>
+              <li
+                class="flex justify-between items-center px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 cursor-pointer transition"
+                onclick="showTeamModal('Knights')"
+              >
+                <span>Knights</span>
+                <span class="font-semibold text-gray-600">0 Points</span>
+              </li>
+              <li
+                class="flex justify-between items-center px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 cursor-pointer transition"
+                onclick="showTeamModal('Alex Team')"
+              >
+                <span>Alex Team</span>
+                <span class="font-semibold text-gray-600">0 Points</span>
+              </li>
+              <li
+                class="flex justify-between items-center px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 cursor-pointer transition"
+                onclick="showTeamModal('Warriors')"
+              >
+                <span>Warriors</span>
+                <span class="font-semibold text-gray-600">0 Points</span>
+              </li>
+            </ul>
+          </div>
+          <!-- Group B  -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-bold text-center mb-4">Group B</h3>
+            <ul class="space-y-2">
+              <li
+                class="flex justify-between items-center px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 cursor-pointer transition"
+                onclick="showTeamModal('EL Ninja')"
+              >
+                <span>El Ninja</span>
+                <span class="font-semibold text-gray-600">0 Points</span>
+              </li>
+              <li
+                class="flex justify-between items-center px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 cursor-pointer transition"
+                onclick="showTeamModal('Eagles')"
+              >
+                <span>Eagles</span>
+                <span class="font-semibold text-gray-600">0 Points</span>
+              </li>
+              <li
+                class="flex justify-between items-center px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 cursor-pointer transition"
+                onclick="showTeamModal('Falcons')"
+              >
+                <span>Falcons</span>
+                <span class="font-semibold text-gray-600">0 Points</span>
+              </li>
+              <li
+                class="flex justify-between items-center px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 cursor-pointer transition"
+                onclick="showTeamModal('النصر')"
+              >
+                <span>النصر</span>
+                <span class="font-semibold text-gray-600">0 Points</span>
+              </li>
+            </ul>
+          </div>
+          <!-- Group C  -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-bold text-center mb-4">Group C</h3>
+            <ul class="space-y-2">
+              <li
+                class="flex justify-between items-center px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 cursor-pointer transition"
+                onclick="showTeamModal('El Dawly')"
+              >
+                <span>El Dawly</span>
+                <span class="font-semibold text-gray-600">0 Points</span>
+              </li>
+              <li
+                class="flex justify-between items-center px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 cursor-pointer transition"
+                onclick="showTeamModal('الحريفة')"
+              >
+                <span>الحريفة</span>
+                <span class="font-semibold text-gray-600">0 Points</span>
+              </li>
+              <li
+                class="flex justify-between items-center px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 cursor-pointer transition"
+                onclick="showTeamModal('6th October Branch')"
+              >
+                <span>6th October Branch</span>
+                <span class="font-semibold text-gray-600">0 Points</span>
+              </li>
+              <li
+                class="flex justify-between items-center px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 cursor-pointer transition"
+                onclick="showTeamModal('Wolves')"
+              >
+                <span>Wolves</span>
+                <span class="font-semibold text-gray-600">0 Points</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Groups Stage Matches  -->
+      <section id="matches" class="mb-8 p-6 rounded-lg container mx-auto">
+        <h2 class="text-2xl font-bold mb-4 text-center text-white">
+          Group Stage Matches
+        </h2>
+        <table class="min-w-full bg-white rounded-lg overflow-hidden shadow-md">
+          <thead class="bg-red-700 text-white text-lg">
+            <tr>
+              <th class="py-3 px-6 text-left">Date</th>
+              <th class="py-3 px-6 text-left">Match</th>
+              <th class="py-3 px-6 text-center">Result</th>
+            </tr>
+          </thead>
+          <tbody class="text-gray-700">
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March x, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">الشواكيش</span> 🆚
+                <span class="font-bold">Knights</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March x, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">Alex Team</span> 🆚
+                <span class="font-bold">Warriors</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March x, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">EL Ninja</span> 🆚
+                <span class="font-bold">Eagles</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March x, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">Falcons</span> 🆚
+                <span class="font-bold">النصر</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March x, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">El Dawly</span> 🆚
+                <span class="font-bold">الحريفة</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March x, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">6th October Branch</span> 🆚
+                <span class="font-bold">Wolves</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March x, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">الشواكيش</span> 🆚
+                <span class="font-bold">ALEX TEAM</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March x, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">Knights</span> 🆚
+                <span class="font-bold">Warriors</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March x, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">EL Ninja</span> 🆚
+                <span class="font-bold">Falcons</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March x, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">EAGLES</span> 🆚
+                <span class="font-bold">النصر</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March xx, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">El Dawly"</span> 🆚
+                <span class="font-bold">6th October Branch</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March xx, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">الحريفة</span> 🆚
+                <span class="font-bold">Wolves</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March xx, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">الشواكيش</span> 🆚
+                <span class="font-bold">Warriors</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March xx, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">Knights</span> 🆚
+                <span class="font-bold">ALEX TEAM</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March xx, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">EL Ninja</span> 🆚
+                <span class="font-bold">النصر</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March xx, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">EAGLES</span> 🆚
+                <span class="font-bold">Falcons</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March xx, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">El Dawly"</span> 🆚
+                <span class="font-bold">Wolves</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-6 font-semibold text-blue-600">
+                March xx, 2025
+              </td>
+              <td class="py-3 px-6">
+                <span class="font-bold">الحريفة</span> 🆚
+                <span class="font-bold">6th October Branch</span>
+              </td>
+              <td class="py-3 px-6 text-center font-semibold text-red-500">
+                0 - 0
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Finals brackets  -->
+      <section class="container mx-auto p-6">
+        <h2 class="text-2xl font-bold mb-6 text-center text-white">
+          Knockout Stage
+        </h2>
+        <div class="overflow-x-auto">
+          <div class="min-w-[1280px]">
+            <div class="grid grid-cols-6 gap-8 items-center py-10 px-5">
+              <!-- Left Side: Quarter Finals -->
+              <div class="col-span-1 space-y-8">
+                <div>
+                  <h2
+                    class="text-xl font-bold mb-4 text-center text-gray-800 bg-gray-100 p-2 rounded-lg shadow-sm"
+                  >
+                    Quarter Finals
+                  </h2>
+                  <div class="space-y-24">
+                    <!-- Game 1 Quarter Finals  -->
+                    <div class="space-y-6">
+                      <div
+                        class="p-4 rounded-lg text-center bg-green-500 shadow-md hover:shadow-lg transition-shadow flex justify-between items-center"
+                      >
+                        <p class="font-bold text-gray-900 text-lg">Team 1</p>
+                        <p
+                          class="text-lg bg-black text-white py-1 px-2 rounded-md font-semibold"
+                        >
+                          2
+                        </p>
+                      </div>
+                      <div class="flex gap-8 justify-end items-center">
+                        <p class="text-center font-bold text-white">VS</p>
+                        <p class="text-center text-white">March xx, 2025</p>
+                      </div>
+                      <div
+                        class="p-4 rounded-lg text-center bg-red-500 shadow-md hover:shadow-lg transition-shadow flex justify-between items-center"
+                      >
+                        <p class="font-bold text-gray-900 text-lg">Team 2</p>
+                        <p
+                          class="text-lg bg-black text-white py-1 px-2 rounded-md font-semibold"
+                        >
+                          1
+                        </p>
+                      </div>
+                    </div>
+
+                    <!-- Game 2 Quarter Finals  -->
+                    <div class="space-y-6">
+                      <div
+                        class="p-4 rounded-lg text-center bg-green-500 shadow-md hover:shadow-lg transition-shadow flex justify-between items-center"
+                      >
+                        <p class="font-bold text-gray-900 text-lg">Team 3</p>
+                        <p
+                          class="text-lg bg-black text-white py-1 px-2 rounded-md font-semibold"
+                        >
+                          5
+                        </p>
+                      </div>
+                      <div class="flex gap-8 justify-end items-center">
+                        <p class="text-center font-bold text-white">VS</p>
+                        <p class="text-center text-white">March xx, 2025</p>
+                      </div>
+                      <div
+                        class="p-4 rounded-lg text-center bg-red-500 shadow-md hover:shadow-lg transition-shadow flex justify-between items-center"
+                      >
+                        <p class="font-bold text-gray-900 text-lg">Team 4</p>
+                        <p
+                          class="text-lg bg-black text-white py-1 px-2 rounded-md font-semibold"
+                        >
+                          1
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Left Side: Semi Finals -->
+              <div class="col-span-1 space-y-8">
+                <div>
+                  <h2
+                    class="text-xl font-bold mb-4 text-center text-gray-800 bg-gray-100 p-2 rounded-lg shadow-sm"
+                  >
+                    Semi Finals
+                  </h2>
+                  <!-- Game 1 Semi Finals  -->
+                  <div class="space-y-24">
+                    <div
+                      class="p-4 rounded-lg text-center bg-green-500 shadow-md hover:shadow-lg transition-shadow flex justify-between items-center"
+                    >
+                      <p class="font-bold text-gray-900 text-lg">Team 1</p>
+                      <p
+                        class="text-lg bg-black text-white py-1 px-2 rounded-md font-semibold"
+                      >
+                        2
+                      </p>
+                    </div>
+                    <div class="flex gap-8 justify-end items-center">
+                      <p class="text-center font-bold text-white">VS</p>
+                      <p class="text-center text-white">March xx, 2025</p>
+                    </div>
+                    <div
+                      class="p-4 rounded-lg text-center bg-red-500 shadow-md hover:shadow-lg transition-shadow flex justify-between items-center"
+                    >
+                      <p class="font-bold text-gray-900 text-lg">Team 3</p>
+                      <p
+                        class="text-lg bg-black text-white py-1 px-2 rounded-md font-semibold"
+                      >
+                        1
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-span-2 flex flex-col items-center">
+                <h2
+                  class="text-2xl font-bold mb-4 text-center text-gray-800 p-3 rounded-lg shadow-lg bg-gray-100"
+                >
+                  Tournament Final
+                </h2>
+
+                <!-- Grand Finals  -->
+                <div class="p-4 w-full max-w-xs space-y-4">
+                  <div
+                    class="p-4 rounded-lg text-center bg-red-500 shadow-md hover:shadow-lg transition-shadow flex justify-between items-center"
+                  >
+                    <p class="font-bold text-gray-900 text-lg">Team 1</p>
+                    <p
+                      class="text-lg bg-black text-white py-1 px-2 rounded-md font-semibold"
+                    >
+                      0
+                    </p>
+                  </div>
+                  <div class="flex gap-8 justify-end items-center">
+                    <p class="text-center font-bold text-white">VS</p>
+                    <p class="text-center text-white">March xx, 2025</p>
+                  </div>
+                  <div
+                    class="p-4 rounded-lg text-center bg-green-500 shadow-md hover:shadow-lg transition-shadow flex justify-between items-center"
+                  >
+                    <p class="font-bold text-gray-900 text-lg">Team 7</p>
+                    <p
+                      class="text-lg bg-black text-white py-1 px-2 rounded-md font-semibold"
+                    >
+                      0
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="mt-4 p-4 bg-red-500 text-white font-bold rounded-lg shadow-md text-center w-full max-w-xs transition-shadow hover:shadow-xl text-2xl"
+                >
+                  🏆 Winner: Team 7 🏆
+                </div>
+              </div>
+
+              <!-- Right Side: Semi Finals -->
+              <div class="col-span-1 space-y-8">
+                <div>
+                  <h2
+                    class="text-xl font-bold mb-4 text-center text-gray-800 bg-gray-100 p-2 rounded-lg shadow-sm"
+                  >
+                    Semi Finals
+                  </h2>
+
+                  <!-- Game 2 Semi Finals  -->
+                  <div class="space-y-24">
+                    <div
+                      class="p-4 rounded-lg text-center bg-red-500 shadow-md hover:shadow-lg transition-shadow flex justify-between items-center"
+                    >
+                      <p class="font-bold text-gray-900 text-lg">Team 5</p>
+                      <p
+                        class="text-lg bg-black text-white py-1 px-2 rounded-md font-semibold"
+                      >
+                        1
+                      </p>
+                    </div>
+                    <div class="flex gap-8 justify-end items-center">
+                      <p class="text-center font-bold text-white">VS</p>
+                      <p class="text-center text-white">March xx, 2025</p>
+                    </div>
+                    <div
+                      class="p-4 rounded-lg text-center bg-green-500 shadow-md hover:shadow-lg transition-shadow flex justify-between items-center"
+                    >
+                      <p class="font-bold text-gray-900 text-lg">Team 7</p>
+                      <p
+                        class="text-lg bg-black text-white py-1 px-2 rounded-md font-semibold"
+                      >
+                        4
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Right Side: Quarter Finals -->
+              <div class="col-span-1 space-y-8">
+                <div>
+                  <h2
+                    class="text-xl font-bold mb-4 text-center text-gray-800 bg-gray-100 p-2 rounded-lg shadow-sm"
+                  >
+                    Quarter Finals
+                  </h2>
+                  <div class="space-y-24">
+                    <!-- Game 3 Quarter Finals  -->
+                    <div class="space-y-6">
+                      <div
+                        class="p-4 rounded-lg text-center bg-green-500 shadow-md hover:shadow-lg transition-shadow flex justify-between items-center"
+                      >
+                        <p class="font-bold text-gray-900 text-lg">Team 5</p>
+                        <p
+                          class="text-lg bg-black text-white py-1 px-2 rounded-md font-semibold"
+                        >
+                          3
+                        </p>
+                      </div>
+                      <div class="flex gap-8 justify-end items-center">
+                        <p class="text-center font-bold text-white">VS</p>
+                        <p class="text-center text-white">March xx, 2025</p>
+                      </div>
+                      <div
+                        class="p-4 rounded-lg text-center bg-red-500 shadow-md hover:shadow-lg transition-shadow flex justify-between items-center"
+                      >
+                        <p class="font-bold text-gray-900 text-lg">Team 6</p>
+                        <p
+                          class="text-lg bg-black text-white py-1 px-2 rounded-md font-semibold"
+                        >
+                          0
+                        </p>
+                      </div>
+                    </div>
+
+                    <!-- Game 4 Quarter Finals  -->
+                    <div class="space-y-6">
+                      <div
+                        class="p-4 rounded-lg text-center bg-green-500 shadow-md hover:shadow-lg transition-shadow flex justify-between items-center"
+                      >
+                        <p class="font-bold text-gray-900 text-lg">Team 7</p>
+                        <p
+                          class="text-lg bg-black text-white py-1 px-2 rounded-md font-semibold"
+                        >
+                          1
+                        </p>
+                      </div>
+                      <div class="flex gap-8 justify-end items-center">
+                        <p class="text-center font-bold text-white">VS</p>
+                        <p class="text-center text-white">March xx, 2025</p>
+                      </div>
+                      <div
+                        class="p-4 rounded-lg text-center bg-red-500 shadow-md hover:shadow-lg transition-shadow flex justify-between items-center"
+                      >
+                        <p class="font-bold text-gray-900 text-lg">Team 8</p>
+                        <p
+                          class="text-lg bg-black text-white py-1 px-2 rounded-md font-semibold"
+                        >
+                          0
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- teams stats section  -->
+      <section class="container mx-auto px-4 py-10">
+        <h1 class="text-2xl font-bold text-center mb-6 text-white">
+          Teams Stats
+        </h1>
+        <div class="overflow-x-auto">
+          <table
+            class="min-w-full bg-white shadow-md rounded-lg overflow-hidden"
+          >
+            <thead class="bg-gray-800 text-white">
+              <tr>
+                <th class="px-4 py-2">#</th>
+                <th class="px-4 py-2">Team Name</th>
+                <th class="px-4 py-2">MP</th>
+                <th class="px-4 py-2">W</th>
+                <th class="px-4 py-2">D</th>
+                <th class="px-4 py-2">L</th>
+                <th class="px-4 py-2">GF</th>
+                <th class="px-4 py-2">GA</th>
+                <th class="px-4 py-2">GD</th>
+                <th class="px-4 py-2">PTS</th>
+              </tr>
+            </thead>
+            <tbody id="leagueTableBody">
+              <!-- Rows will be inserted here dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- players stats section  -->
+      <section id="player-stats" class="mb-8 container mx-auto px-4 py-10">
+        <h2 class="text-2xl font-bold mb-6 text-center text-white">
+          Player Stats
+        </h2>
+
+        <div class="overflow-x-auto bg-white shadow-lg rounded-lg">
+          <table class="min-w-full border-collapse">
+            <thead class="bg-gray-200 text-gray-700">
+              <tr>
+                <th class="py-3 px-5 text-left border-b">Player Name</th>
+                <th class="py-3 px-5 text-center border-b">Team</th>
+                <th class="py-3 px-5 text-center border-b">Number</th>
+                <th
+                  class="py-3 px-5 text-center border-b cursor-pointer"
+                  onclick="sortPlayers('goals')"
+                >
+                  Goals
+                  <i class="fas fa-sort ml-1"></i>
+                </th>
+                <th
+                  class="py-3 px-5 text-center border-b cursor-pointer"
+                  onclick="sortPlayers('yellowCards')"
+                >
+                  Yellow Cards
+                  <i class="fas fa-sort ml-1"></i>
+                </th>
+                <th
+                  class="py-3 px-5 text-center border-b cursor-pointer"
+                  onclick="sortPlayers('redCards')"
+                >
+                  Red Cards
+                  <i class="fas fa-sort ml-1"></i>
+                </th>
+              </tr>
+            </thead>
+            <tbody id="playersTable" class="text-gray-700">
+              <!-- Rows will be inserted here dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <!-- Modal for team details -->
+    <div
+      id="team-modal"
+      class="fixed inset-0 bg-[#000000]/50 items-center justify-center hidden transition-opacity duration-300"
+    >
+      <div class="bg-white p-6 rounded-lg shadow-xl w-full max-w-md">
+        <div class="flex justify-between items-center mb-4">
+          <h3 id="modal-title" class="text-xl font-bold text-gray-800">
+            Team Details
+          </h3>
+          <button
+            class="text-gray-600 hover:text-gray-900 transition cursor-pointer"
+            onclick="closeTeamModal()"
+          >
+            ✕
+          </button>
+        </div>
+        <ul id="team-players" class="space-y-2"></ul>
+        <button
+          class="mt-6 w-full bg-red-600 text-white py-2 px-4 rounded-lg hover:bg-red-700 transition cursor-pointer"
+          onclick="closeTeamModal()"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
