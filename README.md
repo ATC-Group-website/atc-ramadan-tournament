@@ -6,9 +6,9 @@ Welcome to the **ATC Group Ramadan Football Tournament** landing page! This proj
 
 ## 📌 Table of Contents
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
+- [Features]
+- [Technologies Used]
+- [Setup Instructions]
 
 ---
 
@@ -54,3 +54,9 @@ npm install
 ```bash
 npm run dev
 ```
+
+### 4️⃣ Open in Browser
+
+Once the server is running, open your browser and navigate to:
+
+http://localhost:5173
