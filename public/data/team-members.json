@@ -70,7 +70,11 @@
       "name": "الشواكيش",
       "players": [
         {
-          "name": "ELGIZAWY (C) (GK)",
+          "name": "MiiDo (C)",
+          "number": 11
+        },
+        {
+          "name": "ELGIZAWY (GK)",
           "number": 1
         },
         {
@@ -92,10 +96,6 @@
         {
           "name": "ONSY",
           "number": 10
-        },
-        {
-          "name": "MiiDo",
-          "number": 11
         }
       ]
     },
