@@ -12,8 +12,13 @@ async function fetchTeams() {
     }
     let teams = await response.json();
 
-    // Sort teams by PTS in descending order
-    teams.sort((a, b) => b.PTS - a.PTS);
+    // Sort teams by PTS, then by GD if PTS is equal
+    teams.sort((a, b) => {
+      if (b.PTS !== a.PTS) {
+        return b.PTS - a.PTS; // Sort by points (descending)
+      }
+      return b.GD - a.GD; // If points are equal, sort by goal difference (descending)
+    });
 
     populateTeamsTable(teams);
   } catch (error) {

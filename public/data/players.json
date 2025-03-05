@@ -20,7 +20,7 @@
       "name": "Moatasem",
       "team": "Eagles",
       "number": 6,
-      "goals": 0,
+      "goals": 4,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -28,7 +28,7 @@
       "name": "Al Bakry",
       "team": "Eagles",
       "number": 7,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -44,7 +44,7 @@
       "name": "M.Abdallah",
       "team": "Eagles",
       "number": 9,
-      "goals": 0,
+      "goals": 2,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -52,7 +52,7 @@
       "name": "Amir",
       "team": "Eagles",
       "number": 10,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -100,7 +100,7 @@
       "name": "Helal",
       "team": "Alex Team",
       "number": 9,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -140,15 +140,15 @@
       "name": "HESHAM",
       "team": "الشواكيش",
       "number": 8,
-      "goals": 0,
-      "yellowCards": 0,
-      "redCards": 0
+      "goals": 1,
+      "yellowCards": 2,
+      "redCards": 1
     },
     {
       "name": "ELTRAMSY",
       "team": "الشواكيش",
       "number": 9,
-      "goals": 0,
+      "goals": 2,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -164,7 +164,7 @@
       "name": "MiiDo (C)",
       "team": "الشواكيش",
       "number": 11,
-      "goals": 0,
+      "goals": 2,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -357,7 +357,7 @@
       "team": "النصر",
       "number": 4,
       "goals": 0,
-      "yellowCards": 0,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -421,7 +421,7 @@
       "team": "EL Ninja",
       "number": 6,
       "goals": 0,
-      "yellowCards": 0,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -508,7 +508,7 @@
       "name": "Mostafa (C)",
       "team": "Falcons",
       "number": 9,
-      "goals": 0,
+      "goals": 3,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -533,22 +533,22 @@
       "team": "Falcons",
       "number": 4,
       "goals": 0,
-      "yellowCards": 0,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
       "name": "Abdelrahman",
       "team": "Falcons",
       "number": 6,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
-      "redCards": 0
+      "redCards": 1
     },
     {
       "name": "M.Sa3ed",
       "team": "Falcons",
       "number": 7,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -564,8 +564,8 @@
       "name": "Man3m",
       "team": "Warriors",
       "number": 3,
-      "goals": 0,
-      "yellowCards": 0,
+      "goals": 3,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -580,7 +580,7 @@
       "name": "Saied",
       "team": "Warriors",
       "number": 5,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -588,7 +588,7 @@
       "name": "Hany",
       "team": "Warriors",
       "number": 6,
-      "goals": 0,
+      "goals": 3,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -612,7 +612,7 @@
       "name": "Omar",
       "team": "Warriors",
       "number": 10,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
