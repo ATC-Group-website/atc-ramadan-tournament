@@ -52,7 +52,7 @@
       "name": "Amir",
       "team": "Eagles",
       "number": 10,
-      "goals": 1,
+      "goals": 2,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -84,7 +84,7 @@
       "name": "3LWA",
       "team": "Alex Team",
       "number": 7,
-      "goals": 0,
+      "goals": 4,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -109,8 +109,8 @@
       "team": "Alex Team",
       "number": 10,
       "goals": 0,
-      "yellowCards": 0,
-      "redCards": 0
+      "yellowCards": 2,
+      "redCards": 1
     },
     {
       "name": "ELGIZAWY (GK)",
@@ -140,32 +140,32 @@
       "name": "HESHAM",
       "team": "الشواكيش",
       "number": 8,
-      "goals": 1,
-      "yellowCards": 2,
+      "goals": 2,
+      "yellowCards": 3,
       "redCards": 1
     },
     {
       "name": "ELTRAMSY",
       "team": "الشواكيش",
       "number": 9,
-      "goals": 2,
-      "yellowCards": 0,
-      "redCards": 0
+      "goals": 3,
+      "yellowCards": 1,
+      "redCards": 1
     },
     {
       "name": "ONSY",
       "team": "الشواكيش",
       "number": 10,
       "goals": 0,
-      "yellowCards": 0,
-      "redCards": 0
+      "yellowCards": 1,
+      "redCards": 2
     },
     {
       "name": "MiiDo (C)",
       "team": "الشواكيش",
       "number": 11,
-      "goals": 2,
-      "yellowCards": 0,
+      "goals": 5,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -236,7 +236,7 @@
       "name": "Ahmed",
       "team": "6th October Branch",
       "number": 5,
-      "goals": 0,
+      "goals": 2,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -244,7 +244,7 @@
       "name": "Ali",
       "team": "6th October Branch",
       "number": 7,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -252,7 +252,7 @@
       "name": "Dakhly",
       "team": "6th October Branch",
       "number": 9,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -260,7 +260,7 @@
       "name": "Sebai",
       "team": "6th October Branch",
       "number": 10,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -294,13 +294,13 @@
       "number": 1,
       "goals": 0,
       "yellowCards": 0,
-      "redCards": 0
+      "redCards": 1
     },
     {
       "name": "Amr",
       "team": "El Dawly",
       "number": 5,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -308,7 +308,7 @@
       "name": "Hazem",
       "team": "El Dawly",
       "number": 7,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -332,8 +332,8 @@
       "name": "Hommos",
       "team": "El Dawly",
       "number": 10,
-      "goals": 0,
-      "yellowCards": 0,
+      "goals": 6,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -348,7 +348,7 @@
       "name": "A.Matar (GK)",
       "team": "النصر",
       "number": 10,
-      "goals": 0,
+      "goals": 2,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -356,7 +356,7 @@
       "name": "A.Antar",
       "team": "النصر",
       "number": 4,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 1,
       "redCards": 0
     },
@@ -364,7 +364,7 @@
       "name": "Hossam",
       "team": "النصر",
       "number": 5,
-      "goals": 0,
+      "goals": 3,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -372,7 +372,7 @@
       "name": "M.Ebrahim",
       "team": "النصر",
       "number": 7,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -388,7 +388,7 @@
       "name": "H.Matar",
       "team": "النصر",
       "number": 9,
-      "goals": 0,
+      "goals": 2,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -404,7 +404,7 @@
       "name": "Raafat.jr",
       "team": "EL Ninja",
       "number": 4,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -421,7 +421,7 @@
       "team": "EL Ninja",
       "number": 6,
       "goals": 0,
-      "yellowCards": 1,
+      "yellowCards": 2,
       "redCards": 0
     },
     {
@@ -444,7 +444,7 @@
       "name": "RAGAB",
       "team": "EL Ninja",
       "number": 10,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -460,7 +460,7 @@
       "name": "A.Refat",
       "team": "الحريفة",
       "number": 2,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -469,23 +469,23 @@
       "team": "الحريفة",
       "number": 4,
       "goals": 0,
-      "yellowCards": 0,
-      "redCards": 0
+      "yellowCards": 2,
+      "redCards": 1
     },
     {
       "name": "Mahmoud",
       "team": "الحريفة",
       "number": 5,
       "goals": 0,
-      "yellowCards": 0,
-      "redCards": 0
+      "yellowCards": 2,
+      "redCards": 1
     },
     {
       "name": "A.Abd El Hamid",
       "team": "الحريفة",
       "number": 9,
-      "goals": 0,
-      "yellowCards": 0,
+      "goals": 4,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -644,7 +644,7 @@
       "name": "Ali",
       "team": "Wolves",
       "number": 7,
-      "goals": 0,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -660,7 +660,7 @@
       "name": "M.Kota",
       "team": "Wolves",
       "number": 9,
-      "goals": 0,
+      "goals": 2,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -676,8 +676,8 @@
       "name": "Omar ElShazly",
       "team": "Wolves",
       "number": 11,
-      "goals": 0,
-      "yellowCards": 0,
+      "goals": 1,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
