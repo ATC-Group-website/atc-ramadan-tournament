@@ -484,16 +484,16 @@
       "name": "A.Abd El Hamid",
       "team": "الحريفة",
       "number": 9,
-      "goals": 4,
-      "yellowCards": 1,
+      "goals": 0,
+      "yellowCards": 0,
       "redCards": 0
     },
     {
       "name": "A.Hassan",
       "team": "الحريفة",
       "number": 10,
-      "goals": 0,
-      "yellowCards": 0,
+      "goals": 4,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -660,7 +660,7 @@
       "name": "M.Kota",
       "team": "Wolves",
       "number": 9,
-      "goals": 2,
+      "goals": 1,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -676,7 +676,7 @@
       "name": "Omar ElShazly",
       "team": "Wolves",
       "number": 11,
-      "goals": 1,
+      "goals": 2,
       "yellowCards": 1,
       "redCards": 0
     },
