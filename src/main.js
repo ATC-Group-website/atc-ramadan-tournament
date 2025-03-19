@@ -74,9 +74,28 @@ async function fetchPlayersData() {
     const data = await response.json();
     playersData = data.players; // Store the data for sorting
 
-    playersData.sort((a, b) => b.goals - a.goals);
+    playersData.sort((a, b) => {
+      // Sort by goals (descending)
+      if (b.goals !== a.goals) {
+        return b.goals - a.goals;
+      }
+      // If goals are equal, sort by red cards (ascending)
+      if (a.redCards !== b.redCards) {
+        return a.redCards - b.redCards;
+      }
+      // If red cards are equal, sort by yellow cards (ascending)
+      if (a.yellowCards !== b.yellowCards) {
+        return a.yellowCards - b.yellowCards;
+      }
+      // If yellow cards are equal, sort by goals (descending) again
+      if (b.goals !== a.goals) {
+        return b.goals - a.goals;
+      }
+      // If goals are equal again, sort by red cards (ascending) again
+      return a.redCards - b.redCards;
+    });
 
-    renderPlayersTable(data.players);
+    renderPlayersTable(playersData);
     updateSortIcons();
   } catch (error) {
     console.error("Error fetching teams data:", error);
